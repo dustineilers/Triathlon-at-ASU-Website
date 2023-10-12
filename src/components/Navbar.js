@@ -53,14 +53,14 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/events' className='nav-links' onClick={closeMobileMenu}>
                                 Events
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <a href='https://fitness.asu.edu/programs/sportclubs/join' target='_blank' rel='noreferrer' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Sign Up
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                     {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}

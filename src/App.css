@@ -5,10 +5,15 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .home,
 .services,
-.products,
-.sign-up {
+.events,
+.sign-up,
+.faq {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -25,13 +30,127 @@
   font-size: 100px;
 }
 
-.products {
+.events {
+  background-image: url('images/img-home.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 100px;
+
+
+  &:before {
+    content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom right,#242424,#242424);
+        opacity: .6; 
+  }
+
+  &:after {
+    content: "EVENTS";
+    position: absolute;
+    font-size: 100px;
+    color: #fff;
+  }
+}
+
+.overlay {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  /* transform: scale(0); */
+  /* transition: all .3s ease-in-out; */
+  backdrop-filter: blur(8px) brightness(80%);
+}
+
+.events-body { 
+
+  margin: auto;
+  width: 70%;
+
+  .header {
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    max-width: fit-content;
+    padding: 0.25rem;
+    font-size: 50px;
+    background-color: #FFC627;
+  }
+
+  .image {
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    transition: all 0.2s linear;
+  }
+
+  .image:hover {
+    transform: scale(1.07);
+  }
+
+  .event {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .race-name {
+    text-decoration: none;
+    font-size: 50px;
+    color: #242424;
+    margin-bottom: -4px;
+  }
+
+  .city {
+    font-style: italic;
+    font-size: 20px;
+  }
+}
+
+.faq {
   background-image: url('images/img-home.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 70px;
+  justify-content: left;
+}
+
+faq.h1 {
+  font-size: 10px;
+}
+
+.faq-body { 
+  margin: auto;
+  margin-top: 3rem;
+  width: 70%;
+  max-width: 850px;
+  justify-content: center;
+
+  .heading {
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+  }
+
+  .paragraph {
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+  }
 }
 
 .sign-up {

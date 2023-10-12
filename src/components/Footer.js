@@ -29,21 +29,21 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About</h2>
-            <Link to='/sign-up'>About Us</Link>
-            <Link to='/'>FAQ</Link>
+            <Link to='/events'>About Us</Link>
+            <Link to='/faq'>FAQ</Link>
             <Link to='/'>Officers</Link>
             <Link to='/'>Practices</Link>
             <Link to='/'>Gallery</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Races</h2>
-            <Link to='https://4peaksracing.com/events/castle-creek-2023/'>Castle Creek</Link>
-            <Link to='https://register.bbscendurance.com/event/pumpkinman-triathlon-2023'>Pumpkinman</Link>
-            <Link to='https://4peaksracing.com/events/splash-dash-swim-3-2023/'>Splash and Dash</Link>
-            <Link to='https://tritonman.com'>Tritonman</Link>
-            <Link to='https://www.3disciplines.com/events/'>Havasu</Link>
-            <Link to='https://www.usatrichamps.com/'>Nationals</Link>
-            <Link to='https://4peaksracing.com/events/cactus-man-2024/'>Cactus Man</Link>
+            <Link to='https://4peaksracing.com/events/castle-creek-2023/' target='_blank'>Castle Creek</Link>
+            <Link to='https://register.bbscendurance.com/event/pumpkinman-triathlon-2023' target='_blank'>Pumpkinman</Link>
+            <Link to='https://4peaksracing.com/events/splash-dash-swim-3-2023/' target='_blank'>Splash and Dash</Link>
+            <Link to='https://tritonman.com' target='_blank'>Tritonman</Link>
+            <Link to='https://www.3disciplines.com/events/' target='_blank'>Havasu</Link>
+            <Link to='https://www.usatrichamps.com/' target='_blank'>Nationals</Link>
+            <Link to='https://4peaksracing.com/events/cactus-man-2024/' target='_blank'>Cactus Man</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
