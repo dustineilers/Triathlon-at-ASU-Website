@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
+import EventItem from '../EventItem';
 
 export default function Events() {
     return (
@@ -11,71 +12,35 @@ export default function Events() {
                     <h2>Fall Schedule</h2>
                 </div>
                 <ul>
-                    <li className='event'>
-                        <img class='image' src='images/castlecreek.jpg' alt='Castle Creek Triathlon' />
-                        <div>
-                            <a href='https://4peaksracing.com/events/castle-creek-2023/' target='_blank' rel='noreferrer'>
-                                <h3 className='race-name'>Castle Creek Triathlon</h3>
-                            </a>
-                            <h3 className='city'>Lake Pleasant, Arizona</h3>
-                            <h3>October 7th, 2023</h3>
-                        </div>
-                    </li>
-                    <li className='event'>
-                        <div>
-                            <a href='https://register.bbscendurance.com/event/pumpkinman-triathlon-2023' target='_blank' rel='noreferrer'>
-                                <h3 className='race-name'>Pumpkinman</h3>
-                            </a>
-                            <span className='city'>Boulder City, Nevada</span>
-                            <h3>October 28th, 2023</h3>
-                        </div>
-                        <img class='image' src='images/pumpkinman.jpg' alt='Castle Creek Triathlon' />
-                    </li>
-                    <li className='event'>
-                        <img class='image' src='images/tempetownlake.jpg' alt='Castle Creek Triathlon' />
-                        <div>
-                            <a href='https://4peaksracing.com/events/splash-dash-swim-3-2023/' target='_blank' rel='noreferrer'>
-                                <h3 className='race-name'>Splash and Dash #3</h3>
-                            </a>
-                            <h3 className='city'>Tempe Town Lake, Arizona</h3>
-                            <h3>November 12th, 2023</h3>
-                        </div>
-                    </li>
+                    <EventItem 
+                    src='images/castlecreek.jpg' name='Castle Creek Triathlon' 
+                    date='October 7th, 2023' city='Lake Pleasant, Arizona' 
+                    path='https://4peaksracing.com/events/castle-creek-2023/' side='left'/>
+                    <EventItem 
+                    src='images/pumpkinman.jpg' name='Pumpkinman' 
+                    date='October 28th, 2023' city='Boulder City, Nevada' 
+                    path='https://register.bbscendurance.com/event/pumpkinman-triathlon-2023' side='right'/>
+                    <EventItem 
+                    src='images/tempetownlake.jpg' name='Splash and Dash #3' 
+                    date='November 12th, 2023' city='Tempe, Arizona' 
+                    path='https://4peaksracing.com/events/splash-dash-swim-3-2023/' side='left'/>
                 </ul>
                 <div className='header'>
                     <h2>Spring Schedule</h2>
                 </div>
                 <ul>
-                    <li className='event'>
-                        <div>
-                            <a href='http://tritonman.com' target='_blank' rel='noreferrer'>
-                                <h3 className='race-name'>Tritonman</h3>
-                            </a>
-                            <h3 className='city'>San Diego, California</h3>
-                            <h3>February 11th, 2024</h3>
-                        </div>
-                            <img class='image' src='images/tritonman.jpg' alt='Castle Creek Triathlon' />
-                    </li>
-                    <li className='event'>
-                            <img class='image' src='images/havasu.jpg' alt='Castle Creek Triathlon' />
-                        <div>
-                        <a href='https://www.3disciplines.com/events/' target='_blank' rel='noreferrer'>
-                            <h3 className='race-name'>Lake Havasu Triathlon</h3>
-                        </a>
-                            <h3 className='city'>Lake Havasu City, Arizona</h3>
-                            <h3>March 17th, 2024</h3>
-                        </div>
-                    </li>
-                    <li className='event'>
-                        <div>
-                        <a href='https://4peaksracing.com/events/cactus-man-2024/' target='_blank' rel='noreferrer'>
-                            <h3 className='race-name'>Cactus Man</h3>
-                        </a>
-                            <h3 className='city'>Tempe Town Lake, Arizona</h3>
-                            <h3>April 8th, 2024</h3>
-                        </div>
-                            <img class='image' src='images/cactusman.jpg' alt='Castle Creek Triathlon' />
-                    </li>
+                    <EventItem 
+                    src='images/tritonman.jpg' name='Tritonman' 
+                    date='November 12th, 2023' city='San Diego, California' 
+                    path='https://trionman.com' side='right'/>
+                    <EventItem 
+                    src='images/havasu.jpg' name='Lake Havasu Triathlon' 
+                    date='March 17th, 2024' city='Lake Havasu City, Arizona' 
+                    path='https://www.3disciplines.com/events/' side='left'/>
+                    <EventItem 
+                    src='images/cactusman.jpg' name='Cactus Man' 
+                    date='April 28th, 2024' city='Tempe, Arizona' 
+                    path='https://4peaksracing.com/events/cactus-man-2024/' side='right'/>
                 </ul>
             </div>
             <Footer />
