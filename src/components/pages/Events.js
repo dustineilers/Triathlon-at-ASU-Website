@@ -31,8 +31,8 @@ export default function Events() {
                 <ul>
                     <EventItem 
                     src='images/tritonman.jpg' name='Tritonman' 
-                    date='November 12th, 2023' city='San Diego, California' 
-                    path='https://trionman.com' side='right'/>
+                    date='February 11th, 2024' city='San Diego, California' 
+                    path='http://tritonman.com' side='right'/>
                     <EventItem 
                     src='images/havasu.jpg' name='Lake Havasu Triathlon' 
                     date='March 17th, 2024' city='Lake Havasu City, Arizona' 

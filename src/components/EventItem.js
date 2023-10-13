@@ -9,7 +9,7 @@ function EventItem(props) {
         entries.forEach(entry => setVisible(entry.isIntersecting));
       });
       observer.observe(domRef.current);
-      return () => observer.unobserve(domRef.current);
+      return () => domRef.current && observer.unobserve(domRef.current);
     }, []);
     return (
         <>
