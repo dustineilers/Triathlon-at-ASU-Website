@@ -2,13 +2,35 @@ import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
 import EventItem from '../EventItem';
+import { Button } from '../HashButton';
 
 export default function Events() {
     return (
         <>
-            <div className='events'/>
+            <div className='events'>
+                <h1>EVENTS</h1>
+                <div className='event-btns'>
+
+                    <Button 
+                        className='btns' 
+                        buttonStyle='btn--outline'
+                        buttonSize='btn--large'
+                        source='#fall'
+                    >
+                        FALL SCHEDULE
+                    </Button>
+                    <Button
+                        className='btns'
+                        buttonStyle='btn--outline'
+                        buttonSize='btn--large'
+                        source='#spring'
+                    >
+                        SPRING SCHEDULE
+                    </Button>
+                </div>
+            </div>
             <div className='events-body'>
-                <div className='header'>
+                <div className='header' id='fall'>
                     <h2>Fall Schedule</h2>
                 </div>
                 <ul>
@@ -25,7 +47,7 @@ export default function Events() {
                     date='November 12th, 2023' city='Tempe, Arizona' 
                     path='https://4peaksracing.com/events/splash-dash-swim-3-2023/' side='left'/>
                 </ul>
-                <div className='header'>
+                <div className='header' id='spring'>
                     <h2>Spring Schedule</h2>
                 </div>
                 <ul>
