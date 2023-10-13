@@ -6,8 +6,8 @@ export default function FAQ() {
     return (
         <>
             <div className='faq'>
-                <h1>Got a question? <br/>Get your answer</h1>
-                <h3>Curious about Triathlon at ASU? <br/>Ask us anything about our club.</h3>
+                <h1>Got a question? <br/>Get your answer.</h1>
+                <p>Curious about Triathlon at ASU? <br/>Ask us anything about our club.</p>
             </div>
             <div className='faq-body'>
                 <h2 className='heading'>What is triathlon?</h2>
