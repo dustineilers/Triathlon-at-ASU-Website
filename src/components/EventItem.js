@@ -2,10 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function EventItem(props) {
-
+    const [isVisible, setVisible] = React.useState(true);
+    const domRef = React.useRef();
+    React.useEffect(() => {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => setVisible(entry.isIntersecting));
+      });
+      observer.observe(domRef.current);
+      return () => observer.unobserve(domRef.current);
+    }, []);
     return (
         <>
-            <li className='event'>
+            <li className={`event ${isVisible ? 'is-visible' : ''}`} ref={domRef}>
                 { props.side === 'left' ? (<img class='image' src={props.src} alt='Castle Creek Triathlon' />) : null }
                 <div>
                     <a href={props.path} target='_blank' rel='noreferrer'>
