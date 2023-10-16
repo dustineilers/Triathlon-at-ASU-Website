@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
+import ScrollToTop from './components/ScrollToTop';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
@@ -9,9 +10,14 @@ import FAQ from './components/pages/Faq';
 // import SignUp from './components/pages/SignUp'; 
 
 function App() {
+  useEffect(() => {
+    document.body.scrollTo(0, 0); 
+    });
+
   return (
     <>
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path='/' exact element=
