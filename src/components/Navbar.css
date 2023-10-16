@@ -21,7 +21,6 @@
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -86,6 +85,7 @@
     width: 100%;
     height: 90vh;
     position: absolute;
+    justify-content: left;
     top: 80px;
     left: -100%;
     opacity: 1;
@@ -102,6 +102,7 @@
 
   .nav-links {
     text-align: center;
+    top: 0;
     padding: 2rem;
     width: 100%;
     display: table;
@@ -117,7 +118,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(10%, 50%);
   }
 
   .menu-icon {
@@ -148,6 +149,7 @@
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
+    margin-top: 0px;
   }
 
   .nav-links-mobile:hover {

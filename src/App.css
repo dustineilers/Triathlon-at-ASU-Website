@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -137,13 +138,13 @@ a {
   color: #fff;
   font-size: 100px;
   margin-top: -100px;
-  margin-left: 5rem;
+  margin-left: 4rem;
   align-self: flex-start;
 }
 
 .faq > p {
   margin-top: 8px;
-  margin-left: 5rem;
+  margin-left: 4rem;
   align-self: flex-start;
   color: #fff;
   font-size: 32px;
