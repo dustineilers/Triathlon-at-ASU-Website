@@ -39,7 +39,7 @@ export default function Events() {
                     date='October 7th, 2023' city='Lake Pleasant, Arizona' 
                     path='https://4peaksracing.com/events/castle-creek-2023/' side='left'/>
                     <EventItem 
-                    src='images/pumpkinman.jpg' name='Pumpkinman' 
+                    src='images/pumpkin-man.jpg' name='Pumpkinman' 
                     date='October 28th, 2023' city='Boulder City, Nevada' 
                     path='https://register.bbscendurance.com/event/pumpkinman-triathlon-2023' side='right'/>
                     <EventItem 
@@ -52,11 +52,11 @@ export default function Events() {
                 </div>
                 <ul>
                     <EventItem 
-                    src='images/tritonman.jpg' name='Tritonman' 
+                    src='images/triton-man.jpg' name='Tritonman' 
                     date='February 11th, 2024' city='San Diego, California' 
                     path='http://tritonman.com' side='right'/>
                     <EventItem 
-                    src='images/havasu.jpg' name='Lake Havasu Triathlon' 
+                    src='images/lake-havasu.jpg' name='Lake Havasu Triathlon' 
                     date='March 17th, 2024' city='Lake Havasu City, Arizona' 
                     path='https://www.3disciplines.com/events/' side='left'/>
                     <EventItem 
