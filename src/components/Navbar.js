@@ -58,6 +58,11 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
+                            <Link to='/practices' className='nav-links' onClick={closeMobileMenu}>
+                                Practices
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
                             <a href='https://fitness.asu.edu/programs/sportclubs/join' target='_blank' rel='noreferrer' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Sign Up
                             </a>

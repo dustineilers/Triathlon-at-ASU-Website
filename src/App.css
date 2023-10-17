@@ -43,6 +43,7 @@ a {
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
   object-fit: contain;
+  letter-spacing: 0.2rem;
 }
 
 .events > h1 {
@@ -72,6 +73,7 @@ a {
     max-width: fit-content;
     padding: 0.25rem;
     background-color: #FFC627;
+    letter-spacing: 0.2rem;
   }
 
   .image {
