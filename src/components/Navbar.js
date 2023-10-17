@@ -68,7 +68,7 @@ function Navbar() {
                             </a>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                    {button && <Button buttonStyle='btn--outline' source='https://fitness.asu.edu/programs/sportclubs/join' target='_blank'>SIGN UP</Button>}
                 </div>
             </nav>
         </>
