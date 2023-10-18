@@ -65,16 +65,17 @@ a {
 
   margin: auto;
   
-  .header {
-    scroll-margin-top: 100px;
-    margin: auto;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-    max-width: fit-content;
-    padding: 0.25rem;
-    background-color: #FFC627;
-    letter-spacing: 0.2rem;
-  }
+}
+
+.events-body > h1 {
+  scroll-margin-top: 100px;
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  max-width: fit-content;
+  padding: 0.25rem;
+  background-color: #FFC627;
+  letter-spacing: 0.2rem;
 }
 
 .faq {
