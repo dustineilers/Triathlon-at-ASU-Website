@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './EventItem.css';
 
 function EventItem(props) {
     const [isVisible, setVisible] = React.useState(true);

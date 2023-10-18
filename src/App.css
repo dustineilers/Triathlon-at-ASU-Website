@@ -76,52 +76,6 @@ a {
     letter-spacing: 0.2rem;
   }
 
-  .image {
-    height: 50%;
-    width: 50%;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-right: 2.5rem;
-    margin-left: 2.5rem;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-    transition: all 0.2s linear;
-  }
-
-  .image:hover {
-    transform: scale(1.07);
-  }
-
-  .event {
-    display: flex;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    justify-content: center;
-    align-items: center;
-
-    opacity: 0;
-    transform: translateY(10vh);
-    visibility: hidden;
-    transition: opacity 0.8s ease-out, transform 1.2s ease-out;
-    will-change: opacity, visibility;
-  }
-
-  .event.is-visible {
-    opacity: 1;
-    transform: none;
-    visibility: visible;
-  }
-
-  .race-name {
-    text-decoration: none;
-    color: #242424;
-    margin-bottom: -4px;
-  }
-
-  .city {
-    font-style: italic;
-  }
-}
-
 .faq {
   background: url('images/img-home.jpg') center center/cover 
   no-repeat;
@@ -188,12 +142,7 @@ a {
   .events-body {
     width: 70%;
   }
-  .race-name {
-    font-size: 50px;
-  }
-  .city, .date {
-    font-size: 20px;
-  }
+
   .header {
     font-size: 50px;
   }
@@ -224,13 +173,7 @@ a {
   .events-body {
     width: 90%;
   }
-  
-  .race-name {
-    font-size: 24px;
-  }
-  .city, .date {
-    font-size: 14px;
-  }
+
   .header {
     font-size: 30px;
   }
