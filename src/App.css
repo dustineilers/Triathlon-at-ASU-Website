@@ -76,6 +76,7 @@ a {
   padding: 0.25rem;
   background-color: #FFC627;
   letter-spacing: 0.2rem;
+  text-align: center;
 }
 
 .faq {
@@ -146,7 +147,7 @@ a {
   }
 
   .events-body > h2 {
-    font-size: 40px;
+    font-size: 80px;
   }
 
   .header {

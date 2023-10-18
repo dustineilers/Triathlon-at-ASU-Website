@@ -41,7 +41,7 @@ export default function Practices() {
                             <td>SDFC Fields <br/> Bike Rack</td>
                             <td>SDFC West Pool</td>
                             <td>SDFC Synergy Studio</td>
-                            <td><span className='discipline'>SWIM:</span> <br/> SDFC Fields Bike Rack<br/> <span className='discipline'>RUN:</span> <br/> SDFC West Pool</td>
+                            <td><span className='discipline'>RUN:</span> <br/> SDFC Fields Bike Rack<br/> <span className='discipline'>SWIM:</span> <br/> SDFC West Pool</td>
                             <td>SDFC Fields <br/> Bike Rack</td>
                         </tr>
                     </tbody>

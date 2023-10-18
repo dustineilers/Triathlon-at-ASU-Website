@@ -30,9 +30,7 @@ export default function Events() {
                 </div>
             </div>
             <div className='events-body'>
-                <div className='header' id='fall'>
-                    <h2>Fall Schedule</h2>
-                </div>
+                <h2 id='fall'>Fall Schedule</h2>
                 <ul>
                     <EventItem 
                     src='images/castlecreek.jpg' name='Castle Creek Triathlon' 
@@ -47,9 +45,7 @@ export default function Events() {
                     date='November 12th, 2023' city='Tempe, Arizona' 
                     path='https://4peaksracing.com/events/splash-dash-swim-3-2023/' side='left'/>
                 </ul>
-                <div className='header' id='spring'>
-                    <h2>Spring Schedule</h2>
-                </div>
+                <h2 id='spring'>Spring Schedule</h2>
                 <ul>
                     <EventItem 
                     src='images/triton-man.jpg' name='Tritonman' 
