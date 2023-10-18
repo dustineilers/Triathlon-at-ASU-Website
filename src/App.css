@@ -67,7 +67,7 @@ a {
   
 }
 
-.events-body > h1 {
+.events-body > h2 {
   scroll-margin-top: 100px;
   margin: auto;
   margin-top: 6rem;
@@ -145,7 +145,7 @@ a {
     width: 70%;
   }
 
-  .events-body > h1 {
+  .events-body > h2 {
     font-size: 40px;
   }
 
@@ -165,7 +165,7 @@ a {
     font-size: 70px;
   }
 
-  .events-body > h1 {
+  .events-body > h2 {
     font-size: 40px;
   }
 
