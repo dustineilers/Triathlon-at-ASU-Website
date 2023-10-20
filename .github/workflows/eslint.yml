@@ -32,8 +32,8 @@ jobs:
         with:
           node-version: '16'
       - name: install
-        run: yarn install
+        run: npm install
       - name: ESLint
-        run: yarn run fix .
+        run: npm run fix .
       - name: Prettier
-        run: yarn prettier --write .
+        run: npm prettier --write .
