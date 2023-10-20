@@ -126,10 +126,10 @@ function Footer() {
               <i class='fab fa-facebook-f' />
             </Link> */}
             <Link
-              class='social-icon-link instagram'
-              to='https://www.instagram.com/triathlonatasu/'
-              target='_blank'
-              aria-label='Instagram'
+              class="social-icon-link instagram"
+              to="https://www.instagram.com/triathlonatasu/"
+              target="_blank"
+              aria-label="Instagram"
             >
               <i class="fab fa-instagram" />
             </Link>
