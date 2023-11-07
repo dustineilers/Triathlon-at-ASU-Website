@@ -7,7 +7,7 @@ import Home from "./components/pages/Home";
 import Practices from "./components/pages/Practices";
 import Events from "./components/pages/Events";
 import FAQ from "./components/pages/Faq";
-// import SignUp from './components/pages/SignUp';
+import Registration from './components/pages/Registration';
 
 function App() {
   useEffect(() => {
@@ -25,6 +25,7 @@ function App() {
           <Route path="/practices" element={<Practices />} />
           <Route path="/events" element={<Events />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/registration" element={<Registration />} />
         </Routes>
       </Router>
     </>

@@ -73,23 +73,11 @@ function Navbar() {
                 Practices
               </Link>
             </li>
-            <li className="nav-item">
-              <a
-                href="https://fitness.asu.edu/programs/sportclubs/join"
-                target="_blank"
-                rel="noreferrer"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </a>
-            </li>
           </ul>
           {button && (
             <Button
               buttonStyle="btn--outline"
-              source="https://fitness.asu.edu/programs/sportclubs/join"
-              target="_blank"
+              source="/registration"
             >
               SIGN UP
             </Button>
