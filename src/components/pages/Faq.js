@@ -42,7 +42,7 @@ export default function FAQ() {
         </h2>
         <p className="paragraph">
           The triathlons that our club competes in are sprint and olympic
-          distances. The distance of a spring triathlon is a 750 meter swim, a
+          distances. The distance of a sprint triathlon is a 750 meter swim, a
           20 kilometer bike and a 5 kilometer run and an olympic is just twice
           as long. We have members train for the longer distances and we support
           them, but our club practices are geared towards finishing and
