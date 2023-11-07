@@ -129,6 +129,14 @@ function Footer() {
             >
               <i class="fa-brands fa-strava" />
             </Link>
+            <Link
+              class="social-icon-link discord"
+              to="https://discord.gg/CBQ3hvHp4w"
+              target="_blank"
+              aria-label="Strava"
+            >
+              <i class="fa-brands fa-discord" />
+            </Link>
           </div>
         </div>
       </section>
